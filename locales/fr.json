@@ -1,0 +1,28 @@
+{
+  "general": {
+    "accessibility": {
+      "skip_to_content": "Passer au contenu",
+      "close": "Fermer",
+      "menu": "Menu",
+      "search": "Recherche",
+      "cart": "Panier",
+      "account": "Compte"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Ajouter au panier",
+      "sold_out": "Épuisé",
+      "unavailable": "Indisponible",
+      "quantity": "Quantité"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Votre panier",
+      "empty": "Votre panier est vide",
+      "checkout": "Commander",
+      "continue_shopping": "Continuer vos achats"
+    }
+  }
+}
