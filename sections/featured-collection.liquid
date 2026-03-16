@@ -1,0 +1,61 @@
+{%- liquid
+  assign collection = collections[section.settings.collection]
+  assign products_to_show = section.settings.products_to_show
+-%}
+
+<div class="container">
+  <h2 class="section-title">{{ section.settings.title }}</h2>
+  
+  <div class="product-grid">
+    {%- for product in collection.products limit: products_to_show -%}
+      {%- render 'product-card', product: product -%}
+    {%- endfor -%}
+  </div>
+  
+  {%- if section.settings.show_view_all -%}
+    <div style="text-align: center; margin-top: 3rem;">
+      <a href="{{ collection.url }}" class="button">View All</a>
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "Featured Collection",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Featured Collection"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "default": 8,
+      "label": "Products to show"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_all",
+      "default": true,
+      "label": "Show 'View all' button"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Collection"
+    }
+  ]
+}
+{% endschema %}
