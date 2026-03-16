@@ -1,0 +1,28 @@
+{
+  "general": {
+    "accessibility": {
+      "skip_to_content": "Zum Inhalt springen",
+      "close": "Schließen",
+      "menu": "Menü",
+      "search": "Suchen",
+      "cart": "Warenkorb",
+      "account": "Konto"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "In den Warenkorb",
+      "sold_out": "Ausverkauft",
+      "unavailable": "Nicht verfügbar",
+      "quantity": "Menge"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Ihr Warenkorb",
+      "empty": "Ihr Warenkorb ist leer",
+      "checkout": "Zur Kasse",
+      "continue_shopping": "Einkauf fortsetzen"
+    }
+  }
+}
