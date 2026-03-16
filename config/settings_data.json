@@ -1,0 +1,77 @@
+{
+  "current": {
+    "colors_text": "#1a1a1a",
+    "colors_background": "#ffffff",
+    "color_primary": "#2a2a2a",
+    "color_button": "#1a1a1a",
+    "color_button_text": "#ffffff",
+    "type_header_font": "cormorant_garamond_n6",
+    "type_body_font": "montserrat_n4",
+    "font_body_scale": 100,
+    "page_width": "1400",
+    "spacing_sections": 60,
+    "card_style": "standard",
+    "show_vendor": true,
+    "show_quick_add": true,
+    "image_ratio": "portrait",
+    "cart_type": "drawer",
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": 50,
+    "social_instagram_link": "",
+    "social_facebook_link": "",
+    "social_tiktok_link": "",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "",
+          "menu": "main-menu"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Shop",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Customer Care",
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "text",
+            "settings": {
+              "heading": "About Us",
+              "subtext": "<p>Premium fashion and beauty for the modern lifestyle.</p>"
+            }
+          },
+          "footer-3": {
+            "type": "newsletter",
+            "settings": {
+              "heading": "Stay Connected"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2",
+          "footer-3"
+        ],
+        "settings": {
+          "show_social": true,
+          "show_payment_icons": true
+        }
+      }
+    }
+  }
+}
