@@ -1,0 +1,18 @@
+# Shopify Theme Configuration
+# For use with Shopify CLI
+
+development:
+  password: # Your theme password
+  theme_id: # Your theme ID
+  store: # yourstore.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+    - "*.md"
+    - "*.txt"
+    - .git
+    - .gitignore
+
+production:
+  password: # Your theme password
+  theme_id: # Your theme ID  
+  store: # yourstore.myshopify.com
