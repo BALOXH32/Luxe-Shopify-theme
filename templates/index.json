@@ -1,0 +1,55 @@
+{
+  "sections": {
+    "hero_banner": {
+      "type": "image-banner",
+      "settings": {
+        "image": "",
+        "height": "large",
+        "heading": "Timeless Elegance",
+        "subheading": "Discover Our New Spring Collection",
+        "button_label": "Shop Now",
+        "button_link": "shopify://collections/all",
+        "text_alignment": "center",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Products",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "show_view_all": true,
+        "enable_quick_add": true
+      }
+    },
+    "image_with_text": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "",
+        "height": "medium",
+        "layout": "text_first",
+        "heading": "Crafted with Care",
+        "text": "<p>Each piece in our collection is carefully selected to bring you the finest quality and timeless style.</p>",
+        "button_label": "Learn More",
+        "button_link": "shopify://pages/about"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "heading": "Join Our Community",
+        "subheading": "Subscribe to receive updates, access to exclusive deals, and more.",
+        "background_color": "#f5f5f5"
+      }
+    }
+  },
+  "order": [
+    "hero_banner",
+    "featured_collection",
+    "image_with_text",
+    "newsletter"
+  ]
+}
